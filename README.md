@@ -1,7 +1,6 @@
 # Yoga-Pose-Classifier
 
-
-This project classifies yoga poses using a 1D Convolutional Neural Network (CNN) built with Keras and TensorFlow. Also helps in tracking the improvements of the users with the help of of time based pose monitoring log
+This project is a deep learning-based real-time yoga pose classification system using MediaPipe and Keras. It enables users to perform yoga poses in front of a webcam, classifies them accurately, and provides feedback on whether the pose is correct. Additionally, it logs the duration and time of each pose, helping track progress over time.
 
 ## Algorithm Used
 
@@ -12,9 +11,9 @@ This project classifies yoga poses using a 1D Convolutional Neural Network (CNN)
 
 ## Files
 
-- `preprocessing.ipynb` – Load and prepare the dataset.
+- `preprocessing.ipynb` – Preprocesses pose images using MediaPipe to extract and normalize 3D body landmarks, saving them with corresponding class labels.
 - `training.ipynb` – Build, train, and save the model.
-- `testing.ipynb` – Load the saved model and evaluate on test data.
+- `testing.ipynb` – Performs real-time yoga pose classification using a trained model and logs the duration and timestamp of correct poses into a CSV file
 - `model.h5` – Trained model file.
 - `labels.npy` – Numpy file containing all class labels.
 
