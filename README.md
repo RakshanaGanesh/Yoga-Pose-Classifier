@@ -1,7 +1,7 @@
 # Yoga-Pose-Classifier
 
 
-This project classifies yoga poses using a 1D Convolutional Neural Network (CNN) built with Keras and TensorFlow.
+This project classifies yoga poses using a 1D Convolutional Neural Network (CNN) built with Keras and TensorFlow. Also helps in tracking the improvements of the users with the help of of time based pose monitoring log
 
 ## Algorithm Used
 
@@ -20,7 +20,7 @@ This project classifies yoga poses using a 1D Convolutional Neural Network (CNN)
 
 ## Dataset
 
-- Input: `data.csv` with feature columns and a `Pose_Class` label column.
+- Input: Takes in images extracts angles of the pose save the angles in data.csv
 - Output: Trained model and metrics.
 
 ## How to Use
